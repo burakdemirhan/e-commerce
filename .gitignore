@@ -1,0 +1,24 @@
+# React projesi için node_modules klasörü
+node_modules/
+
+# Çevre değişkenlerini içeren .env dosyası
+.env
+
+# React derleme dosyaları
+build/
+
+# Log dosyaları
+*.log
+
+# Geçici dosyalar
+*.tmp
+
+# Visual Studio Code ayar dosyaları
+.vscode/
+
+# MacOS geçici dosyaları
+.DS_Store
+
+# Windows geçici dosyaları
+Thumbs.db
+ehthumbs.db

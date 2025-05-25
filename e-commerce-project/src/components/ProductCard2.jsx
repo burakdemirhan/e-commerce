@@ -3,7 +3,7 @@ import React from "react";
 const products = [
   {
     id: 1,
-    image: "/src/assets/card1.jpg",
+    image: "/src/assets/card5.jpg",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: "$16.48",
@@ -11,7 +11,7 @@ const products = [
   },
   {
     id: 2,
-    image: "/src/assets/card2.jpg",
+    image: "/src/assets/card6.jpg",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: "$16.48",
@@ -19,7 +19,7 @@ const products = [
   },
   {
     id: 3,
-    image: "/src/assets/card3.jpg",
+    image: "/src/assets/card7.jpg",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: "$16.48",
@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 4,
-    image: "/src/assets/card4.jpg",
+    image: "/src/assets/card8.jpg",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: "$16.48",
@@ -37,24 +37,17 @@ const products = [
 
 const ProductCard = () => {
   return (
-    <div className=" flex flex-col justify-between py-8">
-      <div className="flex flex-col items-center gap-6 m-5 p-5">
-        <h4 className="text-secondtext">Featured Products</h4>
-        <h3 className="text-textcolor">BESTSELLER PRODUCTS</h3>
-        <h6 className="text-secondtext">
-          Problems trying to resolve the conflict between{" "}
-        </h6>
-      </div>
+    <div className=" flex flex-col  py-4">
       <div className="w-full h-full flex flex-wrap justify-between gap-6 px-28">
         {products.map((product) => (
           <div
             key={product.id}
-            className="product-card bg-white flex flex-col justify-between  rounded-lg shadow-md w-full sm:w-[48%] md:w-[30%] lg:w-[22%]"
+            className="product-card bg-white flex flex-col justify-between p-4 rounded-lg shadow-md w-full sm:w-[48%] md:w-[30%] lg:w-[22%]"
           >
             <img
               src={product.image}
               alt={product.title}
-              className="product-image  rounded-md"
+              className="product-image  "
             />
             <div className="text-center mt-4">
               <h5 className="font-bold">{product.title}</h5>
@@ -65,11 +58,11 @@ const ProductCard = () => {
                 </h5>
                 <h5 className="text-dolar font-bold">{product.newPrice}</h5>
               </div>
-              <div className="flex gap-2 justify-center ">
-                <div className="elips bg-yesil w-4 h-4 rounded-full" />
-                <div className="elips bg-golden w-4 h-4 rounded-full" />
-                <div className="elips bg-orange w-4 h-4 rounded-full" />
-                <div className="elips bg-gray-400 w-4 h-4 rounded-full" />
+              <div className="flex gap-2 justify-center mt-2">
+                <div className="elips bg-yesil w-5 h-5 rounded-full" />
+                <div className="elips bg-golden w-5 h-5 rounded-full" />
+                <div className="elips bg-orange w-5 h-5 rounded-full" />
+                <div className="elips bg-muted w-5 h-5 rounded-full" />
               </div>
             </div>
           </div>

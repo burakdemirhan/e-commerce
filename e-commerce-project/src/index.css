@@ -1,3 +1,78 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply w-screen h-screen  bg-gray-100 text-gray-900;
+      }
+    
+    h1 {
+        @apply text-5xl  font-montserrat text-white;
+    }
+    h2 {
+        @apply text-4xl  font-montserrat text-textcolor;
+    }
+    h3 {
+        @apply text-2xl font-montserrat text-textcolor;
+    }
+    h4 {
+        @apply text-xl font-montserrat text-secondtext;
+    }
+    h5 {
+        @apply text-base font-montserrat text-textcolor;
+    }
+    h6 {
+        @apply text-sm font-montserrat text-secondtext;
+    }
+    
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-yesil text-white rounded-lg sm:w-24 md:w-32 lg:w-40  sm:h-10 md:h-12 lg:h-16 hover:bg-yellow-100
+    }
+    .product-card {
+        @apply bg-white h-[500px] w-[280px] rounded-lg shadow-lg p-4 flex flex-col translate-y-3 transition-all duration-300;
+      }
+    
+      .product-card:hover {
+        @apply bg-gradient-to-br from-gray-300 to-gray-100 bg-noise shadow-xl scale-105;
+      }
+    .product-image {
+        @apply h-full w-full object-cover rounded-md;
+    }
+    .elips{
+        @apply w-4 h-4 rounded-full
+    }
+    .nav-bar{
+        @apply w-full h-16 flex justify-around items-center;
+    } 
+    .nav-link {
+        @apply w-3/4 flex justify-around
+    }
+    .nav-links{
+        @apply w-96 h-6 text-secondtext flex space-x-4;
+    }
+    .linkss {
+        @apply flex;
+    }
+    .drop-down {
+        @apply bg-white rounded-lg
+    }
+    .drop-link {
+        @apply  w-96 h-64 flex space-x-10 justify-around ;
+    }
+    .drop-links{
+        @apply flex flex-col space-y-3 self-stretch text-secondtext;
+    }
+    
+}
+@layer utilities {
+    .bg-noise {
+      background-image: url('/src/assets/noise.jpg');
+      background-size: 200px 200px;
+      
+    }
+  }

@@ -5,7 +5,7 @@ const Blog = () => {
   const blogs = [
     {
       id: 1,
-      image: "/src/assets/blog1.jpg",
+      image: "/assets/blog1.jpg",
       one: "Goggle",
       two: "Trending",
       three: "New",
@@ -18,7 +18,7 @@ const Blog = () => {
     },
     {
       id: 2,
-      image: "/src/assets/blog2.jpg",
+      image: "/assets/blog2.jpg",
       one: "Goggle",
       two: "Trending",
       three: "New",
@@ -31,7 +31,7 @@ const Blog = () => {
     },
     {
       id: 3,
-      image: "/src/assets/blog3.jpg",
+      image: "/assets/blog3.jpg",
       one: "Goggle",
       two: "Trending",
       three: "New",

@@ -3,7 +3,7 @@ import React from "react";
 const products = [
   {
     id: 1,
-    image: "/src/assets/card5.jpg",
+    image: "/assets/card5.jpg",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: "$16.48",
@@ -11,7 +11,7 @@ const products = [
   },
   {
     id: 2,
-    image: "/src/assets/card6.jpg",
+    image: "/assets/card6.jpg",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: "$16.48",
@@ -19,7 +19,7 @@ const products = [
   },
   {
     id: 3,
-    image: "/src/assets/card7.jpg",
+    image: "/assets/card7.jpg",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: "$16.48",
@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 4,
-    image: "/src/assets/card8.jpg",
+    image: "/assets/card8.jpg",
     title: "Graphic Design",
     department: "English Department",
     oldPrice: "$16.48",

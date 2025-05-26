@@ -14,7 +14,7 @@ const ShopCards = () => {
         <div className="relative w-[510px] h-[500px]">
           <img
             className="w-full h-full object-cover"
-            src="/src/assets/man.jpg"
+            src="/assets/man.jpg"
             alt="Man"
           />
           <button className="absolute left-12 bottom-6 bg-white w-28 h-9 text-ipek font-bold rounded-sm">
@@ -25,7 +25,7 @@ const ShopCards = () => {
         <div className="relative w-[240px] h-[500px]">
           <img
             className="w-full h-full object-cover"
-            src="/src/assets/women.jpg"
+            src="/assets/women.jpg"
             alt="Woman"
           />
           <button className="absolute left-12 bottom-6 bg-white w-28 h-9 text-ipek font-bold rounded-sm">
@@ -37,7 +37,7 @@ const ShopCards = () => {
           <div className="relative w-[240px] h-[242px]">
             <img
               className="w-full h-full object-cover"
-              src="/src/assets/girl.jpg"
+              src="/assets/girl.jpg"
               alt="Accessories"
             />
             <button className="absolute left-12 bottom-6 bg-white w-32 h-9 text-ipek font-bold rounded-sm">
@@ -47,7 +47,7 @@ const ShopCards = () => {
           <div className="relative w-[240px] h-[242px]">
             <img
               className="w-full h-full object-cover"
-              src="/src/assets/boy.jpg"
+              src="/assets/boy.jpg"
               alt="Kids"
             />
             <button className="absolute left-12 bottom-6 bg-white w-28 h-9 text-ipek font-bold rounded-sm">

@@ -1,6 +1,6 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import React from "react";
-import banner from '../assets/banner.png';
+import banner from "../assets/banner.jpg";
 
 const Carousel = () => {
   return (

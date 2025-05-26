@@ -1,14 +1,11 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import React from "react";
+import crousel from "/src/assets/banner.jpg";
 
 const Carousel = () => {
   return (
     <div className="w-full h-[500px] relative overflow-hidden">
-      <img
-        className="object-fill "
-        src="/src/assets/banner.jpg"
-        alt="Header Banner"
-      />
+      <img className="object-fill " src={crousel} alt="Header Banner" />
 
       {/* Metin İçeriği */}
       <div className="absolute text-white font-bold left-1/4 top-1/3 space-y-6">
